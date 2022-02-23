@@ -1,7 +1,10 @@
-m_list=[]
-m_coumt=input("Введите количество элементов: ")
-for i in m_coumt
-  m_list=input("Введите  элемент: ", i)
-  m_list.append(m_list)
-  print(m_list)
-  
+print('Введите количество элементов:')
+n = int(input())
+spsk = []
+i = 0
+while i < n:
+    print('Введите  элемент', i)
+    j = int(input())
+    spsk.append(j)
+    i += 1
+print('Вывод:',spsk)
